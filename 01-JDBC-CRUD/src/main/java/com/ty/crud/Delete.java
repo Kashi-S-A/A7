@@ -20,9 +20,10 @@ public class Delete {
 
 			Statement stm = con.createStatement();
 
-			String query = "DELETE FROM student WHERE sid=101";
+			String query = "DELETE FROM student WHERE phone=9876543210";
 
-			stm.execute(query);
+			int res = stm.executeUpdate(query);
+			System.out.println(res);
 
 			con.close();
 

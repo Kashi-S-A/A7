@@ -22,10 +22,11 @@ public class Update {
 			String query = "UPDATE student SET phone=? WHERE sid=?";
 
 			PreparedStatement pstm = con.prepareStatement(query);
-			pstm.setInt(2, 105);
+			pstm.setInt(2, 101);
 			pstm.setLong(1, 9876543210L);
 
-			pstm.execute();
+			int res = pstm.executeUpdate();
+			System.out.println(res);
 
 			con.close();
 
