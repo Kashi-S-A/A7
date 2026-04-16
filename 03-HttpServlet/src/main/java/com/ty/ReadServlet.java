@@ -18,6 +18,8 @@ public class ReadServlet extends HttpServlet {
 		String email = req.getParameter("email");
 		String phone = req.getParameter("phone");
 		String pwd = req.getParameter("password");
+		
+		int a = 10/0;
 
 		System.out.println(name);
 		System.out.println(email);

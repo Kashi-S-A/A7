@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\thane\Desktop\KSA\Batch-A7\02-Servlet-Project"/>
 			<item value="C:\Users\thane\Desktop\KSA\Batch-A7\01-JDBC-CRUD\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,12 +27,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.tyss.servlet._HttpServlet"/>
 			<item value="com.tyss.servlet._Servlet_Project"/>
 		</list>
 		<list key="groupId">
 			<item value="com.tyss.servlet"/>
 		</list>
 		<list key="artifactId">
+			<item value="03-HttpServlet"/>
 			<item value="02-Servlet-Project"/>
 		</list>
 		<list key="projectNameTemplate">
