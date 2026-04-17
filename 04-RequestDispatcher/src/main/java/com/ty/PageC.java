@@ -15,7 +15,7 @@ public class PageC extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println("PageC got triggered");
 
-		resp.sendRedirect("test.jsp");// html page, jsp page, url of servlet , third party website url
+//		resp.sendRedirect("test.jsp");// html page, jsp page, url of servlet , third party website url
 
 		resp.getWriter().print("<html><body><h1>Welcome to PageC Servlet</h1></body></html>");
 	}
