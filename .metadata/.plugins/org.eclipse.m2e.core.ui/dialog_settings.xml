@@ -27,6 +27,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.tyss.servlet._JSP"/>
 			<item value="com.tyss.servlet._RequestDispatcher"/>
 			<item value="com.tyss.servlet._HttpServlet"/>
 			<item value="com.tyss.servlet._Servlet_Project"/>
@@ -35,6 +36,7 @@
 			<item value="com.tyss.servlet"/>
 		</list>
 		<list key="artifactId">
+			<item value="05-JSP"/>
 			<item value="04-RequestDispatcher"/>
 			<item value="03-HttpServlet"/>
 			<item value="02-Servlet-Project"/>
